@@ -1,0 +1,25 @@
+{
+  "name": "proyecti-node-crud",
+  "version": "1.0.0",
+  "description": "Crud de ejemplo con NodeJS y sqlServer",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "author": "DeyvisBenito",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.1",
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "env-var": "^7.5.0",
+    "express": "^4.21.2",
+    "mssql": "^11.0.1",
+    "sequelize": "^6.37.5"
+  }
+}
